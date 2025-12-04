@@ -31,7 +31,9 @@ function App() {
                <div className="list">
                   <div className='blog'>
                      <h4  onClick={()=>{setModal(!modal); setTitle(i)}}>{blog[i]} </h4>
-                     <span  onClick={()=>{setBlogLikes(i, likes[i] +1)}}>❤</span>{likes[i]}
+                     <span  onClick={()=>{setBlogLikes(i, likes[i] +1)}}>
+                        ❤
+                        </span>{likes[i]}
                      <p>2025 12 03 발행</p>
                   </div>
                   <button
